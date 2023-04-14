@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    username: bailstudio
+    password: icanfly86!!
+    url: jdbc:mysql://rm-cn-pe3360u1e000ekwo.rwlb.rds.aliyuncs.com/cemms
+    dbcp2:
+      max-wait-millis: 60000
+  redis:
+    port: 6379
+    host: localhost
+    timeout: 600
+
+
+logging:
+  level:
+    com.cemms: debug
+
